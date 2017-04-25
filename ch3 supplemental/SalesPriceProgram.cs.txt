@@ -1,0 +1,37 @@
+using System;
+class MainClass {
+  public static void Main (string[] args) {
+    
+    //input data module
+    Console.WriteLine("What is the item's name?");
+    string ItemName = Console.ReadLine();
+    
+    Console.WriteLine("What is it's price?");
+    string OriginalPrice = Console.ReadLine();
+    
+    Console.WriteLine("What is the percentage discounted?");
+    string DiscountRate = Console.ReadLine();
+    
+    //perform calculations module
+    decimal AmountSaved = decimal.Parse(OriginalPrice) * (decimal.Parse(DiscountRate)/100);
+    decimal SalePrice = decimal.Parse(OriginalPrice) - AmountSaved;
+    decimal Tax = SalePrice * (decimal)0.065;
+    decimal TotalPrice = SalePrice + Tax;
+    
+    //output Results module
+    Console.WriteLine("The item is: "+ ItemName);
+    Console.WriteLine("Pre-sale price was " + OriginalPrice);
+    Console.WriteLine("Percentage discounted was " + DiscountRate + "%");
+    Console.WriteLine("Sale price " + SalePrice);
+    Console.WriteLine("Sales Tax " + Tax);
+    Console.WriteLine("Total " + TotalPrice);
+    
+    Console.WriteLine(ItemName);
+    Console.WriteLine(OriginalPrice);
+    Console.WriteLine(DiscountRate);
+    Console.WriteLine(SalePrice);
+    Console.WriteLine(Tax);
+    Console.WriteLine(TotalPrice);
+   }
+}
+      

@@ -1,0 +1,12 @@
+using System;
+class MainClass {
+  public static void Main (string[] args) {
+    string width = Console.ReadLine();
+    string Length = Console.ReadLine();
+    
+    decimal squareFeet = decimal.Parse(width) * decimal.Parse(Length);
+    
+    Console.WriteLine(squareFeet);
+  }
+}
+      

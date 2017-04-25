@@ -1,0 +1,17 @@
+Main website
+http://www.letsstartcoding.com/
+
+Chrome plugin installation page
+https://codebender.cc/static/plugin
+
+Learning website and the first example - lights
+http://www.letsstartcoding.com/learn-blink
+
+Learning website and the second example - speaker
+http://www.letsstartcoding.com/learn-play-3-tones-to-a-speaker/
+
+Lets Start Coding reference page
+http://www.letsstartcoding.com/welcome-to-coding/
+
+General Arduino reference page
+https://www.arduino.cc/en/Reference/HomePage

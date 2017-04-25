@@ -1,0 +1,26 @@
+This site describes different search and sort algorithms and how they perform.  It also has examples by clicking on each different algorithm.
+http://bigocheatsheet.com/
+
+SELECTION SORT
+--Selection sort visualisation
+--https://visualgo.net/sorting
+--http://algoviz.org/OpenDSA/AV/Sorting/selectionsortAV.html
+--------------------------------------------------------------------
+--Selection sort wiki page
+--https://en.wikipedia.org/wiki/Selection_sort
+
+
+BINARY SEARCH
+--Binary search visualisation
+--https://www.cs.usfca.edu/~galles/visualization/Search.html
+--------------------------------------------------------------------
+--Binary search wiki page
+--https://en.wikipedia.org/wiki/Binary_search_algorithm
+
+
+BUBBLE SORT
+--Bubble sort visualisation
+--http://www.cs.armstrong.edu/liang/animation/web/BubbleSort.html
+--------------------------------------------------------------------
+--Bubble sort wiki page
+--https://en.wikipedia.org/wiki/Bubble_sort
